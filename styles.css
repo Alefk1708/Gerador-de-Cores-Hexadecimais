@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+#numberContainer {
+  margin: 50px auto;
+  padding: 20px;
+  width: 200px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 7px 5px 6px black;
+  transition: background-color 0.5s ease;
+}
+
+#hexadecimalValue {
+  font-size: 24px;
+  cursor: pointer;
+  
+}
+
+#generateColor {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 7px 5px 6px black;
+}
